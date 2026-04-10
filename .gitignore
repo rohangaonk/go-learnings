@@ -1,0 +1,29 @@
+/bin
+.agent
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with Litmus
+*.out
+
+# Dependency directories (remove the // [node equivalent] comments after reading)
+# Go modules handles dependencies via go.mod, but if you run `go mod vendor` 
+# it creates a vendor/ folder which is usually not committed in public repos.
+# vendor/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
