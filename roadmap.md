@@ -31,11 +31,11 @@ Go occupies a specific and lucrative niche: **high-throughput, low-latency backe
 - ✅ Pointers — the one thing JS engineers underestimate; spend real time here
   - ✅ **(Extended)** Pointer exercises: swap function, struct mutation, nil guard
 
-### Week 2 — Data Structures & Control Flow
-- Arrays vs slices (richer than JS arrays — understand `append`, capacity, underlying array)
-- Maps, structs, methods on structs
-- `for` as the only loop, `range`, `switch`
-- No classes — understand the struct + method pattern
+### Week 2 — Data Structures & Control Flow ✅
+- ✅ Arrays vs slices (richer than JS arrays — understand `append`, capacity, underlying array)
+- ✅ Maps, structs, methods on structs
+- ✅ `for` as the only loop, `range`, `switch`
+- ✅ No classes — understand the struct + method pattern
 
 ### Week 3 — Interfaces & Error Handling
 - Interfaces — implicit satisfaction, `io.Reader`/`io.Writer` as the canonical example
