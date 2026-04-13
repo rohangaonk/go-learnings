@@ -54,11 +54,11 @@ Go occupies a specific and lucrative niche: **high-throughput, low-latency backe
 
 > **Goal**: Rebuild your concurrency mental model. This is where Go separates itself — your Node.js event loop intuition needs to be extended, not just ported.
 
-### Week 4 — Goroutines & the Scheduler
-- `go` keyword, goroutine lifecycle
-- Understand Go's M:N scheduler vs Node's single-threaded event loop
-- Why goroutines are cheap (2KB stack vs OS threads)
-- `sync.WaitGroup` for coordination
+### Week 4 — Goroutines & the Scheduler ✅
+- ✅ `go` keyword, goroutine lifecycle
+- ✅ Understand Go's M:N scheduler vs Node's single-threaded event loop
+- ✅ Why goroutines are cheap (2KB stack vs OS threads)
+- ✅ `sync.WaitGroup` for coordination
 
 ### Week 5 — Channels
 - Unbuffered vs buffered channels
