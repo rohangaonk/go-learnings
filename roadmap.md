@@ -60,11 +60,11 @@ Go occupies a specific and lucrative niche: **high-throughput, low-latency backe
 - ✅ Why goroutines are cheap (2KB stack vs OS threads)
 - ✅ `sync.WaitGroup` for coordination
 
-### Week 5 — Channels
-- Unbuffered vs buffered channels
-- Directional channels (`chan<-`, `<-chan`)
-- `select` statement — Go's equivalent of `Promise.race` but more powerful
-- Channel closing, ranging over channels
+### Week 5 — Channels ✅
+- ✅ Unbuffered vs buffered channels
+- ✅ Directional channels (`chan<-`, `<-chan`)
+- ✅ `select` statement — Go's equivalent of `Promise.race` but more powerful
+- ✅ Channel closing, ranging over channels
 
 ### Week 6 — Sync Primitives & Patterns
 - `sync.Mutex`, `sync.RWMutex` — when channels aren't the right tool

@@ -10,7 +10,17 @@ func main() {
 	// 1. Start a goroutine that sends "ping" to 'ch'
 	// 2. Receive the message from 'ch' in this main function and print it
 
+	go func() {
+		fmt.Println("Go routine watinig for receiver")
+		ch <- "Hello from go routine"
+	}();
+
+
 	fmt.Println("Waiting for message...")
+
+	msg := <-ch
+
+	fmt.Printf("message is %s", msg)
 	
 	// YOUR CODE HERE
 }
