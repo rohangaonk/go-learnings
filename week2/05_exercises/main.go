@@ -21,7 +21,7 @@ import "fmt"
 // =============================================================================
 func doubledEvens(nums []int) []int {
 	// your code here
-	arr := []int{}
+	arr := make([]int, 0, len(nums))
 
 	for _, val := range nums{
 		if val % 2 == 0 {
@@ -111,14 +111,14 @@ func (s *Stack) Size() int {
 func fizzBuzz() {
 	// your code here — use switch, not if/else
 
-	for i:=0; i<=30; i++ {
+	for i:=1; i<=30; i++ {
 		switch  {
 		case i % 15 == 0:
 			fmt.Printf("FizzBuzz ");
 		case i % 5 == 0:
-			fmt.Printf("Fizz ");
-		case i % 3 == 0:
 			fmt.Printf("Buzz ");
+		case i % 3 == 0:
+			fmt.Printf("Fizz ");
 		default:
 			fmt.Printf("%d ", i)
 		}

@@ -37,11 +37,11 @@ Go occupies a specific and lucrative niche: **high-throughput, low-latency backe
 - ✅ `for` as the only loop, `range`, `switch`
 - ✅ No classes — understand the struct + method pattern
 
-### Week 3 — Interfaces & Error Handling
-- Interfaces — implicit satisfaction, `io.Reader`/`io.Writer` as the canonical example
-- Error handling — `error` as a value, `if err != nil`, custom error types
-- `defer`, `panic`, `recover` — when and why
-- Compare to JS: no try/catch as a crutch, errors are explicit
+### Week 3 — Interfaces & Error Handling ✅
+- ✅ Interfaces — implicit satisfaction, `io.Reader`/`io.Writer` as the canonical example
+- ✅ Error handling — `error` as a value, `if err != nil`, custom error types
+- ✅ `defer`, `panic`, `recover` — when and why
+- ✅ Compare to JS: no try/catch as a crutch, errors are explicit
 
 ### Resources (Phase 1)
 - [Tour of Go](https://go.dev/tour) — do the whole thing
