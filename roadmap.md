@@ -67,14 +67,14 @@ Go occupies a specific and lucrative niche: **high-throughput, low-latency backe
 - ✅ Channel closing, ranging over channels
 
 ### Week 6 — Sync Primitives & Patterns
-- `sync.Mutex`, `sync.RWMutex` — when channels aren't the right tool
-- `sync.Once`, `sync.Pool`
-- Worker pool pattern — you'll use this constantly
-- Fan-out / fan-in pattern
+- ✅ `sync.Mutex`, `sync.RWMutex` — when channels aren't the right tool
+- ✅ `sync.Once`, `sync.Pool`
+- ✅  Worker pool pattern — you'll use this constantly
+- ✅ Fan-out / fan-in pattern
 
 ### Week 7 — Context Package
-- `context.Context` — cancellation, deadlines, timeouts
-- Propagating context through call chains (equivalent to AsyncLocalStorage but idiomatic)
+- ✅ `context.Context` — cancellation, deadlines, timeouts
+- ✅ Propagating context through call chains (equivalent to AsyncLocalStorage but idiomatic)
 - Why every HTTP handler and DB call should accept a context
 
 ### Resources (Phase 2)
