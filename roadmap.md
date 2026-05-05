@@ -89,10 +89,10 @@ Go occupies a specific and lucrative niche: **high-throughput, low-latency backe
 > **Goal**: Build real things. This phase is where your Node.js experience pays dividends.
 
 ### Week 8 — HTTP & Routing
-- `net/http` standard library — understand `Handler`, `HandlerFunc`, `ServeMux`
-- Pick [Chi](https://github.com/go-chi/chi) or [Gin](https://gin-gonic.com) — Chi is closer to Express in philosophy
-- Middleware chains — replicate what you'd do in Express
-- **Build**: a REST API with CRUD endpoints
+- ✅ `net/http` standard library — understand `Handler`, `HandlerFunc`, `ServeMux`
+- ✅ Pick [Chi](https://github.com/go-chi/chi) or [Gin](https://gin-gonic.com) — Chi is closer to Express in philosophy
+- ✅ Middleware chains — replicate what you'd do in Express
+- ✅ **Build**: a REST API with CRUD endpoints
 
 ### Week 9 — Database (PostgreSQL)
 - `database/sql` — understand the interface
