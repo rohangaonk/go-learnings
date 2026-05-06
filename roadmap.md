@@ -94,12 +94,12 @@ Go occupies a specific and lucrative niche: **high-throughput, low-latency backe
 - ✅ Middleware chains — replicate what you'd do in Express
 - ✅ **Build**: a REST API with CRUD endpoints
 
-### Week 9 — Database (PostgreSQL)
-- `database/sql` — understand the interface
-- Use [pgx](https://github.com/jackc/pgx) as the driver (better than lib/pq for Postgres)
-- Connection pooling — `pgxpool`
-- Use [sqlc](https://sqlc.dev) — write SQL, get type-safe Go code generated (idiomatic, not an ORM)
-- **Build**: add persistence to your Week 8 API
+### Week 9 — Database (PostgreSQL) ✅
+- ✅ database/sql — understand the interface
+- ✅ Use pgx as the driver
+- ✅ Connection pooling — pgxpool
+- ✅ Use sqlc — write SQL, get type-safe Go code generated
+- ✅ Build: add persistence to your Week 8 API
 
 ### Week 10 — Configuration, Logging & Structure
 - Project layout — understand the [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
